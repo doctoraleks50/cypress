@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:open": "xvfb-run -a cypress open",
+    "cypress:run": "xvfb-run -a cypress run"
   },
   "keywords": [],
   "author": "",

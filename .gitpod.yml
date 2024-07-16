@@ -1,5 +1,8 @@
 image: gitpod/workspace-full:latest
 
 tasks:
-  - init: npm install
-    command: npx cypress open
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y xvfb
+      npm install
+    command: npm run cypress:open
