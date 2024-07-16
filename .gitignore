@@ -21,3 +21,6 @@ cypress.json
 
 # Gitpod specific files
 .gitpod/
+
+# Environment varaibles
+.env
