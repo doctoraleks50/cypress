@@ -1,0 +1,23 @@
+# Cypress specific files
+cypress/videos/
+cypress/screenshots/
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Cypress configuration
+cypress.json
+
+# Gitpod specific files
+.gitpod/
